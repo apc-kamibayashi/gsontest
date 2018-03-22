@@ -1,0 +1,9 @@
+{
+  "activate": true,
+  "timeslot": "allday",
+  "start": "Start day",
+  "end": "End day",
+  "days": [
+    "mo", "fi"
+  ]
+}

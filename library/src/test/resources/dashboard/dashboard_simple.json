@@ -1,0 +1,43 @@
+{
+  "restId": "dashboard_id",
+  "title": "dashboard title",
+  "desc": "dashboard description",
+  "type": "grid",
+  "children":[
+    {
+      "order": 0,
+      "icon": "icon-id-0",
+      "style": {
+        "bg": {
+          "color": 0
+        },
+        "font": {
+          "name": "font0",
+          "size": 10
+        }
+      },
+      "link": {
+        "type": "dashboard",
+        "target": "target0",
+        "data": "data0"
+      },
+      "showArrow": false
+    },
+    {
+      "order": 1,
+      "type": "block",
+      "style": {},
+      "durations": [
+        {
+          "start": "20151231",
+          "end": "20160101"
+        }
+      ],
+      "link": {
+        "type": "content",
+        "target": "target1"
+      },
+      "showArrow": true
+    }
+  ]
+}

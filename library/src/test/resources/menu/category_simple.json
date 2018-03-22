@@ -1,0 +1,37 @@
+{
+  "restId": "category id",
+  "style": {
+    "bg": {
+      "image": "bg_id",
+      "color": 1,
+      "type": "crop"
+    }
+  },
+  "title": "Category title",
+  "desc": "Category description",
+  "type": "wine",
+  "typeCols": [
+    "col-1", "col-2", "col-3"
+  ],
+  "durations": [
+    {
+      "activate": true,
+      "start": "2016-09-01",
+      "end": "2016-09-30"
+    }
+  ],
+  "items": [
+    {
+      "itemId": "item-1",
+      "order": 1
+    },
+    {
+      "itemId": "item-2",
+      "order": 3
+    },
+    {
+      "itemId": "item-3",
+      "order": 2
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "bg": {
+    "image": "bg_id",
+    "imageSize": "full",
+    "color": "rgba(127,127,127,0.5)",
+    "type": "wide"
+  },
+  "padding": {
+    "h": 10,
+    "v": 20
+  },
+  "label": {
+    "bgImg": "label_bg_id",
+    "width": 100,
+    "bgColor": 2,
+    "color": 3,
+    "align": "center",
+    "style": "height",
+    "borderColor": 4,
+    "borderSize": 30
+  },
+  "font": {
+    "name": "font_name",
+    "size": 40,
+    "color": "rgba(0,0,0,1)",
+    "align": "right",
+    "letterSpacing": 10
+  },
+  "line": {
+    "type": "dashed"
+  }
+
+
+}

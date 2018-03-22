@@ -1,0 +1,52 @@
+{
+  "restId": "menu_id",
+  "title": "menu title",
+  "desc": "menu description",
+  "style": {
+    "label": {
+      "bgColor": 2,
+      "color": 3,
+      "align": "center",
+      "style": "height"
+    }
+  },
+  "pages": [
+    {
+      "title": "page1",
+      "order": 10,
+      "durations":[
+        {
+          "days": [
+            "tu"
+          ]
+        },
+        {
+          "start": "20151231",
+          "end": "20160101"
+        }
+      ],
+      "categories": [
+        {
+          "categoryId": "category 1-1",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "title": "page2",
+      "order": 20,
+      "categories": [
+        {
+          "categoryId": "category 2-1",
+          "order": 2
+        },
+        {
+          "categoryId": "category 2-2",
+          "order": 3
+        }
+      ]
+
+    }
+  ]
+
+}

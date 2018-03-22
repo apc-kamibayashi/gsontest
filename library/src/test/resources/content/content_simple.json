@@ -1,0 +1,80 @@
+{
+  "restId": "content_restaurant_id",
+  "title": "title1",
+  "type": "content",
+  "desc": "description",
+  "style": {
+    "bg": {
+      "color": 1,
+      "type": "wide"
+    },
+    "padding": {
+      "h": 10,
+      "v": 20
+    }
+  },
+  "showPageTitle": true,
+  "pages" : [
+    {
+      "title": "page1",
+      "order": 10,
+      "events": [
+        {
+          "start": "20160301",
+          "end": "20160331"
+        },
+        {
+          "start": "20160401",
+          "end": "20160430"
+        }
+      ],
+      "children": [
+        {
+          "type": "text",
+          "order": 100,
+          "text": "item 1-1",
+          "style": {
+            "font": {
+              "name": "font_name",
+              "align": "right"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "page2",
+      "order": 20,
+      "children": [
+        {
+          "type": "image",
+          "order": 200,
+          "text": "item 2-1",
+          "showArrow": true,
+          "style": {
+            "bg": {
+              "image": "bg_id",
+              "color": 1,
+              "type": "crop"
+            }
+          }
+        },
+        {
+          "type": "contact",
+          "order": 210,
+          "text": "item 2-2",
+          "showArrow": false,
+          "style": {
+            "font": {
+              "name": "font_name",
+              "size": 40,
+              "color": 5,
+              "align": "right"
+            }
+          }
+        }
+      ]
+
+    }
+  ]
+}
